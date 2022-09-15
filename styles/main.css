@@ -1,0 +1,93 @@
+body{
+    /* background-color: black; */
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner{
+    background-color: #000;
+    color: #fff;
+    padding: 1px;
+}
+
+.main-title{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    
+}
+
+#recipe-list{
+    margin-top: 75px;
+    padding: 7px;
+}
+
+
+#recipe-list ul{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#recipe-list ul li{
+    text-align: center;
+    list-style-type: none;
+    width: 200px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #ACA9AA;
+    margin: 2px 2px 2px 0px;
+    /* margin: 2px; */
+}
+
+#recipe-list ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.my-hr{
+    border: 1px dashed grey;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+.recipe-title{
+    color: #2f2f2f;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+.recipe-img img{
+    width: 400px;
+    height: auto;
+}
+
+.basic-title{
+    color: #2f2f2f;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 50%;
+    margin: 15px;
+}
+
+
+@media (max-width: 1000px) {
+    .body{
+        background-color: red;
+    }
+    .container{
+        width: 1000px;
+        color: red;
+    }
+}
